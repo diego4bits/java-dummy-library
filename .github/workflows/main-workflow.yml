@@ -12,6 +12,6 @@ jobs:
       java-version: ${{ vars.JAVA_VERSION }}
       jf-url: ${{ vars.JF_URL }}
       jf-access-token: ${{ secrets.JF_ACCESS_TOKEN }}
-      jf-server-id-resolve: ${{ vars.JF_SERVER_ID_RESOLVE }}
-      jf-repo-resolve-releases: ${{ vars.JF_REPO_RESOLVE_RELEASES }}
-      jf-repo-resolve-snapshots: ${{ vars.JF_REPO_RESOLVE_SNAPSHOTS }}
+      # jf-server-id-resolve: ${{ vars.JF_SERVER_ID_RESOLVE }}
+      # jf-repo-resolve-releases: ${{ vars.JF_REPO_RESOLVE_RELEASES }}
+      # jf-repo-resolve-snapshots: ${{ vars.JF_REPO_RESOLVE_SNAPSHOTS }}
