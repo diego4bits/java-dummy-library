@@ -11,6 +11,7 @@ jobs:
       java-distribution: ${{ vars.JAVA_DISTRIBUTION }}
       java-version: ${{ vars.JAVA_VERSION }}
       jf-url: ${{ vars.JF_URL }}
+    secrets:
       jf-access-token: ${{ secrets.JF_ACCESS_TOKEN }}
       # jf-server-id-resolve: ${{ vars.JF_SERVER_ID_RESOLVE }}
       # jf-repo-resolve-releases: ${{ vars.JF_REPO_RESOLVE_RELEASES }}
