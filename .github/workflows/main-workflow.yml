@@ -2,7 +2,7 @@ name: Test JFrog Maven Deploy (CLI-only)
 
 on: 
   workflow_dispatch:
-permissions: write-all
+
 jobs:
   upload:
 
