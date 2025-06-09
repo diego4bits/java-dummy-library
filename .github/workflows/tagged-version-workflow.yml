@@ -17,6 +17,6 @@ jobs:
     secrets:
       jf-access-token: ${{ secrets.JF_ACCESS_TOKEN }}
       # These attrinutes will be needed to resolve dependencies from JFrog Artifactory.
-      # jf-server-id-resolve: ${{ vars.JF_SERVER_ID_RESOLVE }}
+      # jf-server-id-resolve: ${{ vars.JF_SERVER_ID_RESOLVE }} " This is optional"
       # jf-repo-resolve-releases: ${{ vars.JF_REPO_RESOLVE_RELEASES }}
       # jf-repo-resolve-snapshots: ${{ vars.JF_REPO_RESOLVE_SNAPSHOTS }}
