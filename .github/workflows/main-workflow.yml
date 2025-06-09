@@ -1,5 +1,5 @@
 name: Workflow For Regular Java Library
-descriptiion: |
+description: |
   This workflow is used to build, test, and deploy a regular Java library to JFrog Artifactory.
   It also performs static code analysis using SonarQube and dependency check.
 
