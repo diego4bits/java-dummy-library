@@ -11,8 +11,13 @@ jobs:
       java-distribution: ${{ vars.JAVA_DISTRIBUTION }}
       java-version: ${{ vars.JAVA_VERSION }}
       jf-url: ${{ vars.JF_URL }}
+      sonar-project-key: ${{ vars.SONAR_PROJECT_KEY }}
+      sonar-project-name: ${{ vars.SONAR_PROJECT_NAME }}
     secrets:
       jf-access-token: ${{ secrets.JF_ACCESS_TOKEN }}
+      sonar-host-url: ${{ secrets.SONAR_HOST_URL }}
+      sonar-token: ${{ secrets.SONAR_TOKEN }}
+      sonar-organization: ${{ secrets.SONAR_ORGANIZATION }}
       # These attrinutes will be needed to resolve dependencies from JFrog Artifactory.
       # jf-server-id-resolve: ${{ vars.JF_SERVER_ID_RESOLVE }}
       # jf-repo-resolve-releases: ${{ vars.JF_REPO_RESOLVE_RELEASES }}
