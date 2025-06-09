@@ -1,4 +1,7 @@
-name: Test JFrog Maven Deploy (CLI-only)
+name: Workflow For Tagged Version
+description: |
+  This workflow is used to build, test, and deploy a tagged version of a Java library to JFrog Artifactory.
+  It is triggered by the semantic release with bot a push event of the with a tag that matches the pattern '*.*.*'.
 
 on: 
   push:
