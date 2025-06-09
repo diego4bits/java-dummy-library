@@ -1,0 +1,22 @@
+name: Test JFrog Maven Deploy (CLI-only)
+
+on: 
+  push:
+    tags:
+      - '*.*.*'
+permissions: write-all
+jobs:
+  upload:
+
+    uses: diego4bits/reusable-workflow-components/.github/workflows/tagged-version-workflow.yml@main
+    with:
+      java-distribution: ${{ vars.JAVA_DISTRIBUTION }}
+      java-version: ${{ vars.JAVA_VERSION }}
+      jf-url: ${{ vars.JF_URL }}
+      jf-upload-repo-path: ${{ vars.JF_UPLOAD_REPO_PATH }}
+    secrets:
+      jf-access-token: ${{ secrets.JF_ACCESS_TOKEN }}
+      # These attrinutes will be needed to resolve dependencies from JFrog Artifactory.
+      # jf-server-id-resolve: ${{ vars.JF_SERVER_ID_RESOLVE }}
+      # jf-repo-resolve-releases: ${{ vars.JF_REPO_RESOLVE_RELEASES }}
+      # jf-repo-resolve-snapshots: ${{ vars.JF_REPO_RESOLVE_SNAPSHOTS }}
