@@ -1,5 +1,12 @@
 # Gitmoji Changelog java-dummy-library 🎈
 
+# [v1.1.2](https://github.com/diego4bits/java-dummy-library/compare/1.1.1...1.1.2) (2025-06-09)
+
+## 🐛 Bug Fixes
+-  minor patch in main-workflow.yml add semantic relase bot token ([`ad11a9f`](https://github.com/diego4bits/java-dummy-library/commits/ad11a9f) 👷 diego4bits &#x1F4C5; 2025-06-09 :18:45)
+
+-  minor patch in main-workflow.yml correct syntax ([`a02e939`](https://github.com/diego4bits/java-dummy-library/commits/a02e939) 👷 diego4bits &#x1F4C5; 2025-06-09 :18:45)
+
 # [v1.1.1](https://github.com/diego4bits/java-dummy-library/compare/1.1.0...1.1.1) (2025-06-09)
 
 ## 🐛 Bug Fixes
