@@ -5,7 +5,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class DemoApplicationTests {
-	
+	// This is for a test commit
 	@Test
 	void contextLoads() {
 	}
