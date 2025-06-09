@@ -1,5 +1,10 @@
 # Gitmoji Changelog java-dummy-library 🎈
 
+# [v1.1.1](https://github.com/diego4bits/java-dummy-library/compare/1.1.0...1.1.1) (2025-06-09)
+
+## 🐛 Bug Fixes
+-  minor patch in tagged-version-workflow.yml ([`5cb892a`](https://github.com/diego4bits/java-dummy-library/commits/5cb892a) 👷 diego4bits &#x1F4C5; 2025-06-09 :18:33)
+
 # [v1.1.0](https://github.com/diego4bits/java-dummy-library/compare/1.0.1...1.1.0) (2025-06-09)
 
 ## ✨ New Features
