@@ -21,7 +21,7 @@ jobs:
       sonar-host-url: ${{ secrets.SONAR_HOST_URL }}
       sonar-token: ${{ secrets.SONAR_TOKEN }}
       sonar-organization: ${{ secrets.SONAR_ORGANIZATION }}
-      semnatic-release-bot-token: ${{ secrets.SEMANTIC_RELEASE_BOT_TOKEN }}
+      semantic-release-bot-token: ${{ secrets.SEMANTIC_RELEASE_BOT_TOKEN }}
       # These attrinutes will be needed to resolve dependencies from JFrog Artifactory.
       # jf-server-id-resolve: ${{ vars.JF_SERVER_ID_RESOLVE }}
       # jf-repo-resolve-releases: ${{ vars.JF_REPO_RESOLVE_RELEASES }}
