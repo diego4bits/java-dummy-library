@@ -19,7 +19,6 @@ jobs:
       jf-upload-repo-path: ${{ vars.JF_UPLOAD_REPO_PATH }}
     secrets:
       jf-access-token: ${{ secrets.JF_ACCESS_TOKEN }}
-      semantic-release-bot-token: ${{ secrets.SEMANTIC_RELEASE_BOT_TOKEN }}
       # These attrinutes will be needed to resolve dependencies from JFrog Artifactory.
       # jf-server-id-resolve: ${{ vars.JF_SERVER_ID_RESOLVE }} " This is optional"
       # jf-repo-resolve-releases: ${{ vars.JF_REPO_RESOLVE_RELEASES }}
