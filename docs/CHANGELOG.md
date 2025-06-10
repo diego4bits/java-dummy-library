@@ -1,5 +1,10 @@
 # Gitmoji Changelog java-dummy-library 🎈
 
+# [v1.1.3](https://github.com/diego4bits/java-dummy-library/compare/1.1.2...1.1.3) (2025-06-10)
+
+## 🐛 Bug Fixes
+-  use semantic release bot token ([`ac29025`](https://github.com/diego4bits/java-dummy-library/commits/ac29025) 👷 diego4bits &#x1F4C5; 2025-06-09 :19:09)
+
 # [v1.1.2](https://github.com/diego4bits/java-dummy-library/compare/1.1.1...1.1.2) (2025-06-09)
 
 ## 🐛 Bug Fixes
