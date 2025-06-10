@@ -1,3 +1,12 @@
+# Gitmoji Changelog  🎈
+
+# [v1.1.6](https://github.com/diego4bits/java-dummy-library/compare/1.1.5...1.1.6) (2025-06-10)
+
+## 🐛 Bug Fixes
+-  minor patch 4 ([`ac42dd4`](https://github.com/diego4bits/java-dummy-library/commits/ac42dd4) 👷 diego4bits &#x1F4C5; 2025-06-10 :10:34)
+
+-  minor patch 5 ([`fedd2b0`](https://github.com/diego4bits/java-dummy-library/commits/fedd2b0) 👷 diego4bits &#x1F4C5; 2025-06-10 :10:34)
+
 # Gitmoji Changelog java-dummy-library 🎈
 
 # [v1.1.5](https://github.com/diego4bits/java-dummy-library/compare/1.1.4...1.1.5) (2025-06-10)
